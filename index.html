@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emergency Hotline</title>
+    <!-- google font -->
+     <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- daisy css  -->
      <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css" />
     <!-- tailwind css -->
@@ -11,14 +13,18 @@
      <!-- font Awesome cdn -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="hind-madurai">
     <header>
-        <section>
-            <div>
-                <img src="" alt="">
-                <h1>Emergency Call</h1>
+        <section class="max-w-[1920px] px-[60px] py-6 flex justify-between">
+            <div class="flex gap-2 justify-center items-center">
+                <img src="./assets/logo.png" alt="" class="w-[50px] h-[50px]">
+                <h1 class="text-[#006747] font-extrabold text-2xl">Emergency <br> Call</h1>
             </div>
-            <div></div>
+            <div class="flex gap-3 justify-center items-center ">
+                <div class="flex justify-center items-center"><span>0</span><img src="./assets/heart.png" alt="" class="w-[50px] h-[50px]"></div>
+                <div class="flex justify-center items-center"><span>100</span><img src="./assets/coin.png" alt="" class="w-[50px] h-[50px]"></div>
+                <div><span>2</span>Copy</div>
+            </div>
         </section>
     </header>
     <main></main>
