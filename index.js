@@ -1,6 +1,9 @@
-const loveAvailable = document.getElementById("love-count")
-
-document.getElementById("love-btn")
-.addEventListener("click",function(event){
-    console.log("love button clicked");  
-})
+ const loveCount = document.getElementById("love-count");
+ const loveBtn = document.getElementsByClassName("love-btn");   
+ let count = 0;
+    for (let btn of loveBtn) {
+        btn.addEventListener("click", function () {
+            count++;
+            loveCount.innerText = count;
+        });
+    }
