@@ -24,7 +24,7 @@
             </div>
             <div class="flex gap-3 justify-center items-center ">
                 <div class="flex justify-center items-center gap-4 bg-[#41ff6b1a] py-2 px-4 rounded-3xl"><span id="love-count" class="text-xl">0</span><img src="./assets/heart.png" alt="" class="w-[25px] h-[25px]"></div>
-                <div class="flex justify-center items-center gap-4 bg-[#41ff6b1a] py-2 px-4 rounded-3xl"><span class="text-xl">100</span><img src="./assets/coin.png" alt="" class="w-[25px] h-[25px]"></div>
+                <div class="flex justify-center items-center gap-4 bg-[#41ff6b1a] py-2 px-4 rounded-3xl"><span id="available-coin" class="text-xl">100</span><img src="./assets/coin.png" alt="" class="w-[25px] h-[25px]"></div>
                 <div class="bg-[#00a63e] py-2 px-4 rounded-[50px] text-white"><span class="mr-3">2</span>Copy</div>
             </div>
         </section>
@@ -41,29 +41,29 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
                     <div class="p-2 md:p-8 bg-white shadow-[0px_2px_3px_0px_#00000026] rounded-lg">
                         <div class="flex justify-between items-center"><img src="./assets/emergency.png" alt="" class="h-[32px] w-[32px]"> <div class="love-btn"><i class="fa-regular fa-heart"></i></div></div>
-                        <h2 class="text-2xl font-semibold mt-3">National Emergency Number</h2>
+                        <h2 id="national-title" class="text-lg font-semibold mt-3">National Emergency Number</h2>
                         <p>National Emergency</p>
-                        <h1 class="font-bold text-[32px]">999</h1>
+                        <h1 id="national-number" class="font-bold text-[32px]">999</h1>
                         <p class="p-2 max-w-10 bg-[#f2f2f2] rounded-xl mb-3">All</p>
                         <div class="flex gap-2">
                             <button type="submit" class="flex justify-center items-center gap-2 btn-xs border border-[#D4D6D5] bg-white  w-1/2 py-1 rounded-lg text-[#5c5c5c]"><i class="fa-solid fa-copy"></i>Copy</button>
-                            <button type="submit" class="flex justify-center items-center gap-2 btn-xs w-1/2 py-1 bg-[#00a63e] rounded-lg text-white"><i class="fa-solid fa-phone"></i>Call</button>
+                            <button type="submit" id="national-call-btn" class="flex justify-center items-center gap-2 btn-xs w-1/2 py-1 bg-[#00a63e] rounded-lg text-white"><i class="fa-solid fa-phone"></i>Call</button>
                         </div>
                     </div>
                     <div class="p-2 md:p-8 bg-white shadow-[0px_2px_3px_0px_#00000026] rounded-lg">
                         <div class="flex justify-between items-center"><img src="./assets/police.png" alt="" class="h-[32px] w-[32px]"> <div class="love-btn"><i class="fa-regular fa-heart"></i></div></div>
-                        <h2 class="text-2xl font-semibold mt-3">Police Helpline Number</h2>
+                        <h2 class="text-lg font-semibold mt-3">Police Helpline Number</h2>
                         <p>Police</p>
                         <h1 class="font-bold text-[32px]">999</h1>
-                        <p class="p-2 max-w-10 bg-[#f2f2f2] rounded-xl mb-3">Police</p>
+                        <p class="p-2 max-w-15 bg-[#f2f2f2] rounded-xl mb-3">Police</p>
                         <div class="flex gap-2">
                             <button type="submit" class="flex justify-center items-center gap-2 btn-xs border border-[#D4D6D5] bg-white w-1/2 py-1 rounded-lg text-[#5c5c5c]"><i class="fa-solid fa-copy"></i>Copy</button>
-                            <button type="submit" class="flex justify-center items-center gap-2 btn-xs w-1/2 py-1 bg-[#00a63e] rounded-lg text-white"><i class="fa-solid fa-phone"></i>Call</button>
+                            <button type="submit" id="police-call-btn" class="flex justify-center items-center gap-2 btn-xs w-1/2 py-1 bg-[#00a63e] rounded-lg text-white"><i class="fa-solid fa-phone"></i>Call</button>
                         </div>
                     </div>
                     <div class="p-2 md:p-8 bg-white shadow-[0px_2px_3px_0px_#00000026] rounded-lg">
                         <div class="flex justify-between items-center"><img src="./assets/fire-service.png" alt="" class="h-[32px] w-[32px]"> <div class="love-btn"><i class="fa-regular fa-heart"></i></div></div>
-                        <h2 class="text-2xl font-semibold mt-3">Fire Service Number</h2>
+                        <h2 class="text-lg font-semibold mt-3">Fire Service Number</h2>
                         <p>Fire Service</p>
                         <h1 class="font-bold text-[32px]">999</h1>
                         <p class="p-2 max-w-10 bg-[#f2f2f2] rounded-xl mb-3">Fire</p>
@@ -74,10 +74,10 @@
                     </div>
                     <div class="p-2 md:p-8 bg-white shadow-[0px_2px_3px_0px_#00000026] rounded-lg">
                         <div class="flex justify-between items-center"><img src="./assets/ambulance.png" alt="" class="h-[32px] w-[32px]"> <div class="love-btn"><i class="fa-regular fa-heart"></i></div></div>
-                        <h2 class="text-2xl font-semibold mt-3">Ambulance Service</h2>
+                        <h2 class="text-lg font-semibold mt-3">Ambulance Service</h2>
                         <p>Ambulance</p>
                         <h1 class="font-bold text-[32px]">1994-999999</h1>
-                        <p class="p-2 max-w-10 bg-[#f2f2f2] rounded-xl mb-3">Health</p>
+                        <p class="p-2 max-w-15 bg-[#f2f2f2] rounded-xl mb-3">Health</p>
                         <div class="flex gap-2">
                             <button type="submit" class="flex justify-center items-center gap-2 btn-xs border border-[#D4D6D5] bg-white w-1/2 py-1 rounded-lg text-[#5c5c5c]"><i class="fa-solid fa-copy"></i>Copy</button>
                             <button type="submit" class="flex justify-center items-center gap-2 btn-xs w-1/2 py-1 bg-[#00a63e] rounded-lg text-white"><i class="fa-solid fa-phone"></i>Call</button>
@@ -85,10 +85,10 @@
                     </div>
                     <div class="p-2 md:p-8 bg-white shadow-[0px_2px_3px_0px_#00000026] rounded-lg">
                         <div class="flex justify-between items-center"><img src="./assets/emergency.png" alt="" class="h-[32px] w-[32px]"><div class="love-btn"><i class="fa-regular fa-heart"></i></div></div>
-                        <h2 class="text-2xl font-semibold mt-3">Women & Child Helpline</h2>
+                        <h2 class="text-lg font-semibold mt-3">Women & Child Helpline</h2>
                         <p>Women & Child Helpline</p>
                         <h1 class="font-bold text-[32px]">109</h1>
-                        <p class="p-2 max-w-10 bg-[#f2f2f2] rounded-xl mb-3">Help</p>
+                        <p class="p-2 max-w-12 bg-[#f2f2f2] rounded-xl mb-3">Help</p>
                         <div class="flex gap-2">
                             <button type="submit" class="flex justify-center items-center gap-2 btn-xs border border-[#D4D6D5] bg-white w-1/2 py-1 rounded-lg text-[#5c5c5c]"><i class="fa-solid fa-copy"></i>Copy</button>
                             <button type="submit" class="flex justify-center items-center gap-2 btn-xs w-1/2 py-1 bg-[#00a63e] rounded-lg text-white"><i class="fa-solid fa-phone"></i>Call</button>
@@ -96,10 +96,10 @@
                     </div>
                     <div class="p-2 md:p-8 bg-white shadow-[0px_2px_3px_0px_#00000026] rounded-lg">
                         <div class="flex justify-between items-center"><img src="./assets/emergency.png" alt="" class="h-[32px] w-[32px]"><div class="love-btn"><i class="fa-regular fa-heart"></i></div></div>
-                        <h2 class="text-2xl font-semibold mt-3">Anti-Corruption Helpline</h2>
+                        <h2 class="text-lg font-semibold mt-3">Anti-Corruption Helpline</h2>
                         <p>Anti-Corruption</p>
                         <h1 class="font-bold text-[32px]">106</h1>
-                        <p class="p-2 max-w-10 bg-[#f2f2f2] rounded-xl mb-3">Govt.</p>
+                        <p class="p-2 max-w-12 bg-[#f2f2f2] rounded-xl mb-3">Govt.</p>
                         <div class="flex gap-2">
                             <button type="submit" class="flex justify-center items-center gap-2 btn-xs border border-[#D4D6D5] bg-white w-1/2 py-1 rounded-lg text-[#5c5c5c]"><i class="fa-solid fa-copy"></i>Copy</button>
                             <button type="submit" class="flex justify-center items-center gap-2 btn-xs w-1/2 py-1 bg-[#00a63e] rounded-lg text-white"><i class="fa-solid fa-phone"></i>Call</button>
@@ -107,10 +107,10 @@
                     </div>
                     <div class="p-2 md:p-8 bg-white shadow-[0px_2px_3px_0px_#00000026] rounded-lg">
                         <div class="flex justify-between items-center"><img src="./assets/emergency.png" alt="" class="h-[32px] w-[32px]"><div class="love-btn"><i class="fa-regular fa-heart"></i></div></div>
-                        <h2 class="text-2xl font-semibold mt-3">Electricity Helpline</h2>
+                        <h2 class="text-lg font-semibold mt-3">Electricity Helpline</h2>
                         <p>Electricity Outage</p>
                         <h1 class="font-bold text-[32px]">16216</h1>
-                        <p class="p-2 max-w-10 bg-[#f2f2f2] rounded-xl mb-3">Electricity</p>
+                        <p class="p-2 max-w-20 bg-[#f2f2f2] rounded-xl mb-3">Electricity</p>
                         <div class="flex gap-2">
                             <button type="submit" class="flex justify-center items-center gap-2 btn-xs border border-[#D4D6D5] bg-white w-1/2 py-1 rounded-lg text-[#5c5c5c]"><i class="fa-solid fa-copy"></i>Copy</button>
                             <button type="submit" class="flex justify-center items-center gap-2 btn-xs w-1/2 py-1 bg-[#00a63e] rounded-lg text-white"><i class="fa-solid fa-phone"></i>Call</button>
@@ -118,10 +118,10 @@
                     </div>
                     <div class="p-2 md:p-8 bg-white shadow-[0px_2px_3px_0px_#00000026] rounded-lg">
                         <div class="flex justify-between items-center"><img src="./assets/emergency.png" alt="" class="h-[32px] w-[32px]"><div class="love-btn"><i class="fa-regular fa-heart"></i></div></div>
-                        <h2 class="text-2xl font-semibold mt-3">Brac Helpline</h2>
+                        <h2 class="text-lg font-semibold mt-3">Brac Helpline</h2>
                         <p>Brac</p>
                         <h1 class="font-bold text-[32px]">16445</h1>
-                        <p class="p-2 max-w-10 bg-[#f2f2f2] rounded-xl mb-3">NGO</p>
+                        <p class="p-2 max-w-12 bg-[#f2f2f2] rounded-xl mb-3">NGO</p>
                         <div class="flex gap-2">
                             <button type="submit" class="flex justify-center items-center gap-2 btn-xs border border-[#D4D6D5] bg-white w-1/2 py-1 rounded-lg text-[#5c5c5c]"><i class="fa-solid fa-copy"></i>Copy</button>
                             <button type="submit" class="flex justify-center items-center gap-2 btn-xs w-1/2 py-1 bg-[#00a63e] rounded-lg text-white"><i class="fa-solid fa-phone"></i>Call</button>
@@ -129,7 +129,7 @@
                     </div>
                     <div class="p-2 md:p-8 bg-white shadow-[0px_2px_3px_0px_#00000026] rounded-lg">
                         <div class="flex justify-between items-center"><img src="./assets/emergency.png" alt="" class="h-[32px] w-[32px]"><div class="love-btn"><i class="fa-regular fa-heart"></i></div></div>
-                        <h2 class="text-2xl font-semibold mt-3">Bangladesh Railway Helpline </h2>
+                        <h2 class="text-lg font-semibold mt-3">Bangladesh Railway Helpline </h2>
                         <p>Bangladesh Railway</p>
                         <h1 class="font-bold text-[32px]">163</h1>
                         <div class="p-2 max-w-14 bg-[#f2f2f2] rounded-xl mb-3"><p>Travel</p></div>
@@ -141,41 +141,13 @@
                 </div>
             </div>
             <!-- card section right -->
-            <div class="grid col-span-3 p-2 md:p-8 bg-white ml-6 rounded-lg mt-6 md:mt-0">
+            <div class="grid col-span-3 p-1 md:p-2 bg-white ml-6 rounded-lg mt-6 md:mt-0">
                 <div>
                     <div class="flex justify-between">
                         <div class="flex items-center"><i class="fa-regular fa-clock mr-3"></i><span class="font-bold">Call History</span></div>
-                        <button class="btn bg-[#00a63e] rounded-3xl text-white px-8">Info</button>
+                        <button id="clear-history" class="btn bg-[#00a63e] rounded-3xl text-white px-8">Clear</button>
                     </div>
-
-                    <div class="bg-[#FAFAFA] p-2 rounded-md flex justify-between mt-8 md:mt-3">
-                        <div>
-                            <h2 class="text[#f2f2f2] font-semibold text-lg text-center">Fire Service Number</h2>
-                            <p>999</p>
-                        </div>
-                        <p class="flex text-center items-center">11:36:58 AM</p>
-                    </div>
-                    <div class="bg-[#FAFAFA] p-2 rounded-md flex justify-between mt-8 md:mt-3">
-                        <div>
-                            <h2 class="text[#f2f2f2] font-semibold text-lg text-center">Fire Service Number</h2>
-                            <p>999</p>
-                        </div>
-                        <p class="flex text-center items-center">11:36:58 AM</p>
-                    </div>
-                    <div class="bg-[#FAFAFA] p-2 rounded-md flex justify-between mt-8 md:mt-3">
-                        <div>
-                            <h2 class="text[#f2f2f2] font-semibold text-lg text-center">Fire Service Number</h2>
-                            <p>999</p>
-                        </div>
-                        <p class="flex text-center items-center">11:36:58 AM</p>
-                    </div>
-                    <div class="bg-[#FAFAFA] p-2 rounded-md flex justify-between mt-8 md:mt-3">
-                        <div>
-                            <h2 class="text[#f2f2f2] font-semibold text-lg text-center">Fire Service Number</h2>
-                            <p>999</p>
-                        </div>
-                        <p class="flex text-center items-center">11:36:58 AM</p>
-                    </div>
+                    <div id="callHistory-container"> </div>
                 </div>
             </div>
         </div>
