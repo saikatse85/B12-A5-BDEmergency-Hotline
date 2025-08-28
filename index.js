@@ -1,3 +1,4 @@
+//  Love Count function
  const loveCount = document.getElementById("love-count");
  const loveBtn = document.getElementsByClassName("love-btn");   
  let count = 0;
