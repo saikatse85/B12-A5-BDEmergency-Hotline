@@ -13,7 +13,6 @@
 // common function for all call button
 const totalCoin = document.getElementById("available-coin");
 const historyContainer = document.getElementById("callHistory-container");
-const clickCallData = [];
 
 function callBtnClicked(buttonId, titleId, numberId, serviceName) {
     document.getElementById(buttonId)
@@ -26,7 +25,7 @@ function callBtnClicked(buttonId, titleId, numberId, serviceName) {
             const title = document.getElementById(titleId).innerText;
             const number = document.getElementById(numberId).innerText;
 
-            alert(`📞Calling- 
+            alert(`📞Calling.... 
     ${title} : ${number}
             `);
 
@@ -35,8 +34,6 @@ function callBtnClicked(buttonId, titleId, numberId, serviceName) {
                 number: number,
                 dateAndTime: new Date().toLocaleTimeString(),
             };
-
-            clickCallData.push(data);
 
             const historyItem = document.createElement("div");
             historyItem.className =
