@@ -26,8 +26,8 @@ function callBtnClicked(buttonId, titleId, numberId, serviceName) {
             const title = document.getElementById(titleId).innerText;
             const number = document.getElementById(numberId).innerText;
 
-            alert(`
-Calling- ${title} : ${number}
+            alert(`📞Calling- 
+    ${title} : ${number}
             `);
 
             const data = {
@@ -52,7 +52,7 @@ Calling- ${title} : ${number}
 
             historyContainer.appendChild(historyItem);
         } else {
-            alert("0, You have not enough Coin");
+            alert("❌, You have not enough Coin");
         }
     });
 }
